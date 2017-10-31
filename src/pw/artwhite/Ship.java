@@ -3,7 +3,7 @@ package pw.artwhite;
 import java.util.ArrayList;
 
 /**
- * Класс шип обрабатывающий выстрелы пользователя
+ * Класс ship обрабатывающий выстрелы пользователя
  */
 
 
@@ -18,6 +18,7 @@ public class Ship {
      * Метод возвращает результат проверки выстрела на попадание
      *
      * @param shot - координаты выстрела
+     * @return res - результат проверки на попадание
      */
     public String checkShip(String shot){
         String res = "Мимо";
